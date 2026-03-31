@@ -1,0 +1,18 @@
+This repository contains thesis-related extensions and modifications by Madhuram Mantri.
+
+This work builds upon the original repository:
+multi_robot_navigation by David Dudas
+https://github.com/dudasdavid/multi_robot_navigation
+
+Original work is licensed under the Apache License, Version 2.0.
+
+Modifications in this repository include thesis-specific development related to:
+- merged-map frontier exploration
+- Voronoi-based coordination
+- goal claiming
+- TF-stability-gated stopping
+- optional ORB-SLAM3 and EKF-based localization fusion
+
+Parts of the code and documentation in this repository were developed with AI-assisted support.
+All final integration, adaptation, validation, and thesis-specific implementation decisions were made by Madhuram Mantri.
+

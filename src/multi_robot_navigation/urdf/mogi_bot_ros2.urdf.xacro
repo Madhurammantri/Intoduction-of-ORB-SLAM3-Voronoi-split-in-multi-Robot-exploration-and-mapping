@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="mogi_bot">
+
+  <!-- Declare args FIRST (they are fine here, but root name cannot use them) -->
+  <xacro:arg name="name" default="mogi_bot"/>
+  <xacro:arg name="prefix" default=""/>
+
+  <xacro:include filename="$(find multi_robot_navigation)/urdf/mogi_bot.xacro"/>
+  <xacro:include filename="$(find multi_robot_navigation)/urdf/materials.xacro"/>
+  <xacro:include filename="$(find multi_robot_navigation)/urdf/mogi_bot.gazebo"/>
+
+  <!-- Use args here (safe) -->
+  <xacro:mogi_bot name="${name}" prefix="${prefix}"/>
+
+</robot>
+

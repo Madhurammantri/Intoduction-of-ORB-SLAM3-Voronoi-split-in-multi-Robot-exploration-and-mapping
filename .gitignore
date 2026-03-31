@@ -1,0 +1,21 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# ROS / colcon
+compile_commands.json
+.colcon/
+*.db3
+*.bag
+*.zip
+
+# Python
+*.egg-info/
+src/ros2_orbslam3/config/ORBvoc.txt
